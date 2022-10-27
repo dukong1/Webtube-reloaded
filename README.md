@@ -7,11 +7,12 @@
 
 /users/join
 /users/login
-/users/edit
-/users/delete
+/users/:id -> See User
+/users/logout -> Logout
+/users/edit -> Edit My Profile
+/users/delete -> Delete My Profile
 
-/videos/watch
-/videos/edit
-/videos/delete
-/videos/comments
-/videos/comments/delete
+/videos/:id -> See Video
+/videos/:id/edit -> Edit Video
+/videos/:id/delete -> Delete Video
+/videos/:id/upload -> Upload Video
